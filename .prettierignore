@@ -1,2 +1,6 @@
 resources/js/components/ui/*
 resources/views/mail/*
+.claude/
+.mcp.json
+boost.json
+CLAUDE.md
