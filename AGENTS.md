@@ -13,7 +13,7 @@
 - Check `docs/` before exploring the codebase widely — it contains file maps and non-obvious logic that save search time.
 - Use shadcn/ui for UI components as much as possible.
 - Write commit messages in simple English, limited to a single sentence. No detailed descriptions are required.
-- Do not include the "Co-Authored-By: Claude" line in commit messages.
+- Do not include the "Co-Authored-By" line in commit messages.
 - In migration files, use `dateTime` or `datetimes` instead of `timestamp` or `timestamps`.
 - For Enum, use `string` instead of `enum` in migration files, and define casts with PHP Enum classes.
 - Do not put spaces in blank lines.
@@ -24,8 +24,6 @@
 
 - When a controller is added or edited, the corresponding feature test must also be added or edited.
 - When a service is added or edited, the corresponding unit test must also be added or edited.
-
-===
 
 <laravel-boost-guidelines>
 === foundation rules ===
